@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-25T08:34:12.072Z</updated>
+  <updated>2025-04-25T08:39:58.589Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%AD%97%E8%8A%82%E7%BC%93%E5%AD%98%E5%A4%A7%E5%B0%8F/"/>
     <id>http://example.com/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%AD%97%E8%8A%82%E7%BC%93%E5%AD%98%E5%A4%A7%E5%B0%8F/</id>
     <published>2013-07-13T12:46:25.000Z</published>
-    <updated>2025-04-25T08:34:12.072Z</updated>
+    <updated>2025-04-25T08:39:58.589Z</updated>
     
     <content type="html"><![CDATA[<h3 id="方案一：使用代码修改"><a href="#方案一：使用代码修改" class="headerlink" title="方案一：使用代码修改"></a>方案一：使用代码修改</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">WebAppRootContext</span> <span class="keyword">implements</span> <span class="title class_">ServletContextInitializer</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">onStartup</span><span class="params">(ServletContext servletContext)</span> <span class="keyword">throws</span> ServletException &#123;</span><br><span class="line">        servletContext.addListener(WebAppRootListener.class);</span><br><span class="line">        servletContext.setInitParameter(<span class="string">&quot;org.apache.tomcat.websocket.textBufferSize&quot;</span>,<span class="string">&quot;16384&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="方案二：-添加启动参数"><a href="#方案二：-添加启动参数" class="headerlink" title="方案二： 添加启动参数"></a>方案二： 添加启动参数</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Dorg.apache.tomcat.websocket.DEFAULT_BUFFER_SIZE=<span class="number">16384</span> -jar xxx.jar </span><br></pre></td></tr></table></figure>]]></content>
     
