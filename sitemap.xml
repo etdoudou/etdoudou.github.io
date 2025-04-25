@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://github.com/etdoudou/etdoudou.github.io/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%AD%97%E8%8A%82%E7%BC%93%E5%AD%98%E5%A4%A7%E5%B0%8F/</loc>
+    <loc>https://etdoudou.github.com/etdoudou.github.io/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%AD%97%E8%8A%82%E7%BC%93%E5%AD%98%E5%A4%A7%E5%B0%8F/</loc>
     
     <lastmod>2025-04-25</lastmod>
     
@@ -12,7 +12,7 @@
   
 
   <url>
-    <loc>https://github.com/etdoudou/etdoudou.github.io</loc>
+    <loc>https://etdoudou.github.com/etdoudou.github.io</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -22,7 +22,7 @@
 
   
   <url>
-    <loc>https://github.com/etdoudou/etdoudou.github.io/categories/JAVA/</loc>
+    <loc>https://etdoudou.github.com/etdoudou.github.io/categories/JAVA/</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
