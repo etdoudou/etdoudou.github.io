@@ -1,3 +1,4 @@
 http://example.com/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%AD%97%E8%8A%82%E7%BC%93%E5%AD%98%E5%A4%A7%E5%B0%8F/
+http://example.com/about/index.html
 http://example.com/
 http://example.com/categories/JAVA/
