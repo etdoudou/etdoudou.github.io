@@ -4,8 +4,9 @@ http://example.com/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%A
 http://example.com/2025/04/27/%E5%B0%86jar%E5%88%B6%E4%BD%9C%E4%B8%BAlinux%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/
 http://example.com/about/index.html
 http://example.com/
-http://example.com/categories/linux/
-http://example.com/categories/mysql/
+http://example.com/tags/android/
+http://example.com/tags/linux/
+http://example.com/tags/mysql/
+http://example.com/tags/java/
+http://example.com/categories/android/
 http://example.com/categories/server/
-http://example.com/categories/linux/android/
-http://example.com/categories/mysql/server/

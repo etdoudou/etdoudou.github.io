@@ -13,12 +13,18 @@
       
       <categories>
           
-          <category> linux </category>
-          
           <category> android </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> android </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
       
     </entry>
     
@@ -34,12 +40,16 @@
       
       <categories>
           
-          <category> mysql </category>
-          
           <category> server </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
       
     </entry>
     
@@ -60,6 +70,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -78,6 +94,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
       
     </entry>
     
