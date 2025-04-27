@@ -4,12 +4,20 @@
   
     
     <entry>
-      <title></title>
+      <title>linux安装android环境</title>
       <link href="/2025/04/27/linux%20%E5%AE%89%E8%A3%85android%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/"/>
       <url>/2025/04/27/linux%20%E5%AE%89%E8%A3%85android%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</url>
       
         <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><blockquote><ol><li><strong>安装jdk17编译环境</strong></li></ol></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh jdk-17_linux-x64_bin.rpm</span><br><span class="line">java -version</span><br></pre></td></tr></table></figure><ol start="2"><li>安<strong>装gradle-7.2-bin.zip</strong></li></ol><ul><li><pre><code>执行解压命令</code></pre></li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd /opt/</span><br><span class="line">mkdir gradle &amp;&amp; cd gradle &amp;&amp; mv /opt/gradle-7.2-bin.zip /opt/gradle </span><br><span class="line">unzip gradle-7.2-bin.zip</span><br><span class="line"></span><br></pre></td></tr></table></figure><p> 配置环境变量</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export GRADLE_HOME=/opt/gradle/gradle-7.2/bin</span><br><span class="line">export PATH=$&#123;PATH&#125;:$GRADLE_HOME</span><br></pre></td></tr></table></figure><ol start="3"><li><strong>安装android 命令行工具</strong></li></ol><ul><li>执行解压命令</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd /opt/</span><br><span class="line">mkdir android &amp;&amp; cd android &amp;&amp; mv /opt/commandlinetools-linux-10406996_latest.zip /opt/android</span><br><span class="line">unzip commandlinetools-linux-10406996_latest.zip</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>配置环境变量</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export ANDROID=/opt/android</span><br><span class="line">export ANDROID_HOME=$ANDROID/android_sdk</span><br><span class="line">export PATH=$&#123;PATH&#125;:$&#123;ANDROID&#125;/tools:$&#123;ANDROID&#125;/platform-tools:$&#123;ANDROID&#125;/bin:$ANDROID_HOME</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sdkmanager --sdk_root=$ANDROID_HOME --install platform-tools</span><br><span class="line">sdkmanager --sdk_root=$ANDROD_HOME &quot;build-tools;28.0.3&quot;</span><br><span class="line">sdkmanager --sdk_root=$ANDROID_HOME &quot;platforms;android-31&quot;</span><br><span class="line">sdkmanager --sdk_root=$ANDROID_HOME &quot;platforms;android-29&quot;</span><br><span class="line">sdkmanager --sdk_root=$ANDROID_HOME &quot;ndk;21.1.6352462&quot;</span><br><span class="line">sdkmanager --sdk_root=$ANDROID_HOME --licenses</span><br><span class="line">sdkmanager --sdk_root=$ANDROID_HOME &quot;cmake;3.10.2.4988404&quot;</span><br></pre></td></tr></table></figure>]]></content>
       
+      
+      <categories>
+          
+          <category> linux </category>
+          
+          <category> android </category>
+          
+      </categories>
       
       
     </entry>
@@ -28,7 +36,7 @@
           
           <category> mysql </category>
           
-          <category> 后端 </category>
+          <category> server </category>
           
       </categories>
       
@@ -47,7 +55,7 @@
       
       <categories>
           
-          <category> 后端 </category>
+          <category> server </category>
           
       </categories>
       
@@ -66,7 +74,7 @@
       
       <categories>
           
-          <category> 后端 </category>
+          <category> server </category>
           
       </categories>
       
