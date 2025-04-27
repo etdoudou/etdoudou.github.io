@@ -81,6 +81,31 @@
     
     
     <entry>
+      <title>常用curl命令</title>
+      <link href="/2025/04/27/%E5%B8%B8%E7%94%A8curl%E5%91%BD%E4%BB%A4/"/>
+      <url>/2025/04/27/%E5%B8%B8%E7%94%A8curl%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<ul><li>测试websocket连通性</li></ul> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl --include --no-buffer --header &quot;Connection: Upgrade&quot; --header &quot;Upgrade: websocket&quot;  --header &quot;Host: 127.0.0.1:80&quot; --header &quot;Origin: http://127.0.0.1:80&quot;  --header &quot;Sec-WebSocket-Key: SGVsbG8sIHdvcmxkIQ==&quot; --header  &quot;Sec-WebSocket-Version: 13&quot; http://127.0.0.1/clientWebsocket/3eddf</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> server </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> crul </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>websocket调整字节缓存大小</title>
       <link href="/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%AD%97%E8%8A%82%E7%BC%93%E5%AD%98%E5%A4%A7%E5%B0%8F/"/>
       <url>/2013/07/13/websocket%E8%B0%83%E6%95%B4%E9%BB%98%E8%AE%A4%E5%AD%97%E8%8A%82%E7%BC%93%E5%AD%98%E5%A4%A7%E5%B0%8F/</url>
